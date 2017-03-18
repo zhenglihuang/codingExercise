@@ -6,5 +6,7 @@ The following steps has to be done before running the program.
 >javac -d bin -sourcepath src -cp lib/jackson-annotations-2.2.3.jar;lib/jackson-core-2.2.3.jar;lib/jackson-databind-2.2.3.jar src/com/company/CodingExercise.java
 3. Run:
 >java -cp bin;lib/jackson-annotations-2.2.3.jar;lib/jackson-core-2.2.3.jar;lib/jackson-databind-2.2.3.jar com.company.CodingExercise
-or run with argument:
+
+or run with arguments (only --ignore-donuts is supported for now):
+
 >java -cp bin;lib/jackson-annotations-2.2.3.jar;lib/jackson-core-2.2.3.jar;lib/jackson-databind-2.2.3.jar com.company.CodingExercise --ignore-donuts
